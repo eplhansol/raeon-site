@@ -132,11 +132,22 @@ hr.sep{max-width:900px;margin:var(--gap-block) auto 0;border:0;border-top:1px so
 .post-body h3,.text-body h3{font-size:1.1rem;font-weight:700;color:var(--teal-d);margin:26px 0 10px}
 .post-body h4,.text-body h4{font-size:1.03rem;font-weight:700;color:var(--ink);margin:24px 0 7px}
 .text-body p{margin-bottom:15px;line-height:1.92}
-.text-body table{width:100%;border-collapse:collapse;margin:20px 0 8px;font-size:.94rem}
-.text-body th{background:var(--soft);color:var(--ink);font-weight:700;text-align:left;
+.post-body table,.text-body table{width:100%;border-collapse:collapse;margin:20px 0 8px;font-size:.94rem}
+.post-body th,.text-body th{background:var(--soft);color:var(--ink);font-weight:700;text-align:left;
  padding:13px 15px;border:1px solid var(--line)}
-.text-body td{padding:12px 15px;border:1px solid var(--line)}
-.text-body tbody tr:nth-child(even){background:#fbfdfd}
+.post-body td,.text-body td{padding:12px 15px;border:1px solid var(--line)}
+.post-body tbody tr:nth-child(even),.text-body tbody tr:nth-child(even){background:#fbfdfd}
+/* 글 본문 안에 든 표·목록은 text-body 로 한 겹 감싸여 나간다(blocks.render).
+   그 겹이 위 여백 72px 을 얹어 편집 화면과 간격이 달라지므로 여기서 지운다.
+   표의 여백은 표 자신이 정한다 — 편집 화면에서 고른 그대로. */
+.post-body .text-body{margin:0}
+/* 표 간격 — 편집 화면에서 고른 것이 그대로 나온다.
+   tfix 는 칸 너비를 colgroup 에 적어 둔 표. 그것이 지켜지려면 고정 배치여야 한다. */
+table.tfix{table-layout:fixed}
+table.tp-s th,table.tp-s td{padding:7px 9px}
+table.tp-l th,table.tp-l td{padding:18px 20px}
+table.tm-s{margin:10px 0 4px}
+table.tm-l{margin:34px 0 20px}
 .post-body .tags,.text-body .tags{margin-top:34px;color:var(--muted);font-size:.9rem;line-height:1.9}
 /* 홈 머리말 — 히어로 대신. 최근 글이 첫 화면에 들어오도록 낮게 잡는다 */
 .home-head{padding:34px 0 30px;border-bottom:1px solid var(--line);margin-bottom:38px}
@@ -172,6 +183,22 @@ hr.sep{max-width:900px;margin:var(--gap-block) auto 0;border:0;border-top:1px so
 .post-body .pcards img{width:100%;margin-bottom:10px;border-radius:10px;border:1px solid var(--line)}
 .post-body .pcards img:last-child{margin-bottom:0}
 @media(max-width:640px){.post-body .pcards{margin:16px auto 26px}}
+/* 사진 여러 장 — 격자로 묶거나 좌우로 넘긴다. 슬라이드는 스크롤 스냅이라
+   자바스크립트가 필요 없다 (정적 사이트에 스크립트를 늘리지 않는다). */
+.post-body .collage,.text-body .collage{display:grid;grid-template-columns:repeat(2,1fr);
+  gap:8px;margin:22px 0}
+.post-body .collage.c3,.text-body .collage.c3{grid-template-columns:repeat(3,1fr)}
+.post-body .collage img,.text-body .collage img{width:100%;aspect-ratio:1;object-fit:cover;
+  border-radius:8px;border:1px solid var(--line);margin:0;display:block}
+.post-body .slide,.text-body .slide{display:flex;gap:8px;overflow-x:auto;margin:22px 0;
+  padding-bottom:8px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}
+.post-body .slide img,.text-body .slide img{flex:0 0 86%;scroll-snap-align:center;
+  border-radius:10px;border:1px solid var(--line);margin:0}
+.post-body .slide::-webkit-scrollbar,.text-body .slide::-webkit-scrollbar{height:6px}
+.post-body .slide::-webkit-scrollbar-thumb,.text-body .slide::-webkit-scrollbar-thumb{
+  background:#cfd6da;border-radius:3px}
+@media(max-width:640px){.post-body .collage,.text-body .collage{gap:5px}
+ .post-body .slide img,.text-body .slide img{flex-basis:90%}}
 
 /* 본문 사진 — 글 중간에 끼워 넣는다 */
 .post-body .pimg,.text-body .pimg{margin:26px 0}
@@ -267,7 +294,9 @@ footer b{color:#fff;font-size:1.05rem;display:block;margin-bottom:8px}
  .text-body h2{font-size:1.2rem;margin-top:42px}
  .text-body h3{font-size:1.02rem}
  .post-body .ph{font-size:1.48rem}
- .text-body table{font-size:.88rem}
- .text-body th,.text-body td{padding:10px 9px}
+ .post-body table,.text-body table{font-size:.88rem}
+ .post-body th,.post-body td,.text-body th,.text-body td{padding:10px 9px}
+ table.tp-s th,table.tp-s td{padding:6px 7px}
+ table.tp-l th,table.tp-l td{padding:14px 13px}
  :root{--gap-block:52px}}
 @media(max-width:400px){.menu a:first-child{display:none}}
