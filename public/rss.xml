@@ -5,8 +5,16 @@
   <link>https://365raeon.co.kr/</link>
   <description>평택 고덕국제신도시 365래온치과병원. 임플란트·사랑니·교정 진료 안내와 치아 건강 정보.</description>
   <language>ko</language>
-  <lastBuildDate>Fri, 28 Aug 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 29 Aug 2026 09:00:00 +0900</lastBuildDate>
   <atom:link href="https://365raeon.co.kr/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>고덕치과 입안이 자주 헐 때</title>
+    <link>https://365raeon.co.kr/고덕치과-입안이-자주-헐-때/</link>
+    <guid isPermaLink="true">https://365raeon.co.kr/고덕치과-입안이-자주-헐-때/</guid>
+    <pubDate>Sat, 29 Aug 2026 09:00:00 +0900</pubDate>
+    <category>고덕치과</category>
+    <description>입안이 헐어 먹는 것이 불편했던 경험은 흔했어요. 자주 반복되면 이유가 있는지 궁금해하시는 분들이 계셨습니다. 고덕치과에서 자주 나누던 이야기를 적어 보았어요.</description>
+  </item>
   <item>
     <title>고덕치과 밤에 이가 아플 때</title>
     <link>https://365raeon.co.kr/고덕치과-밤에-이가-아플-때/</link>
@@ -158,14 +166,6 @@
     <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
     <category>서정리치과</category>
     <description>아이를 언제 처음 치과에 데려가야 할지 물어보시는 분들이 많았어요. 아프고 나서 오시는 경우가 대부분이지만 그보다 이른 시점을 이야기하곤 했습니다. 서정리치과에서 자주 나누던 내용을 정리해 보았어요.</description>
-  </item>
-  <item>
-    <title>서정리치과 유치도 관리가 필요한 이유</title>
-    <link>https://365raeon.co.kr/서정리치과-유치도-관리가-필요한-이유/</link>
-    <guid isPermaLink="true">https://365raeon.co.kr/서정리치과-유치도-관리가-필요한-이유/</guid>
-    <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-    <category>서정리치과</category>
-    <description>어차피 빠질 이라고 여겨 유치 관리를 미루시는 경우가 있었어요. 그런데 유치가 하는 일이 생각보다 여럿이었습니다. 서정리치과를 찾아 주시는 분들께 설명드리던 내용을 적어 보았어요.</description>
   </item>
 </channel>
 </rss>
