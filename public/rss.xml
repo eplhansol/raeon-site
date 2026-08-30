@@ -5,8 +5,16 @@
   <link>https://365raeon.co.kr/</link>
   <description>평택 고덕국제신도시 365래온치과병원. 임플란트·사랑니·교정 진료 안내와 치아 건강 정보.</description>
   <language>ko</language>
-  <lastBuildDate>Sat, 29 Aug 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 09:00:00 +0900</lastBuildDate>
   <atom:link href="https://365raeon.co.kr/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>비전동치과 잇몸이 내려가 보인다면</title>
+    <link>https://365raeon.co.kr/비전동치과-잇몸이-내려가-보인다면/</link>
+    <guid isPermaLink="true">https://365raeon.co.kr/비전동치과-잇몸이-내려가-보인다면/</guid>
+    <pubDate>Sun, 30 Aug 2026 09:00:00 +0900</pubDate>
+    <category>비전동치과</category>
+    <description>거울을 보다가 치아가 예전보다 길어 보인다고 느끼시는 경우가 있었어요. 잇몸의 높이가 달라진 신호일 수 있었습니다. 비전동치과에서 자주 확인하던 부분이에요.</description>
+  </item>
   <item>
     <title>고덕치과 입안이 자주 헐 때</title>
     <link>https://365raeon.co.kr/고덕치과-입안이-자주-헐-때/</link>
@@ -158,14 +166,6 @@
     <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
     <category>서정리치과</category>
     <description>아이 어금니가 나오면 홈을 메우는 처치를 권해 드리는 경우가 있었어요. 왜 그 자리를 따로 다루는지 궁금해하시는 분들이 많았습니다. 서정리치과에서 자주 설명드리던 내용을 정리해 보았어요.</description>
-  </item>
-  <item>
-    <title>서정리치과 아이 첫 치과 방문 시기는 언제일까요</title>
-    <link>https://365raeon.co.kr/서정리치과-아이-첫-치과-방문-시기는-언제일까요/</link>
-    <guid isPermaLink="true">https://365raeon.co.kr/서정리치과-아이-첫-치과-방문-시기는-언제일까요/</guid>
-    <pubDate>Wed, 12 Aug 2026 09:00:00 +0900</pubDate>
-    <category>서정리치과</category>
-    <description>아이를 언제 처음 치과에 데려가야 할지 물어보시는 분들이 많았어요. 아프고 나서 오시는 경우가 대부분이지만 그보다 이른 시점을 이야기하곤 했습니다. 서정리치과에서 자주 나누던 내용을 정리해 보았어요.</description>
   </item>
 </channel>
 </rss>
