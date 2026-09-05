@@ -5,8 +5,24 @@
   <link>https://365raeon.co.kr/</link>
   <description>평택 고덕국제신도시 365래온치과병원. 임플란트·사랑니·교정 진료 안내와 치아 건강 정보.</description>
   <language>ko</language>
-  <lastBuildDate>Fri, 04 Sep 2026 09:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 09:00:00 +0900</lastBuildDate>
   <atom:link href="https://365raeon.co.kr/rss.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>동삭동치과 아이 치아가 흔들릴 때</title>
+    <link>https://365raeon.co.kr/동삭동치과-아이-치아가-흔들릴-때/</link>
+    <guid isPermaLink="true">https://365raeon.co.kr/동삭동치과-아이-치아가-흔들릴-때/</guid>
+    <pubDate>Sat, 05 Sep 2026 09:00:00 +0900</pubDate>
+    <category>동삭동치과</category>
+    <description>아이 이가 흔들리기 시작하면 언제 빠질지, 그냥 두어도 되는지 궁금해하시는 분들이 많았어요. 대부분은 자연스러운 과정이지만 살펴볼 경우도 있었습니다. 동삭동치과에서 자주 나누던 이야기를 적어 보았어요.</description>
+  </item>
+  <item>
+    <title>동삭동치과</title>
+    <link>https://365raeon.co.kr/동삭동치과/</link>
+    <guid isPermaLink="true">https://365raeon.co.kr/동삭동치과/</guid>
+    <pubDate>Sat, 05 Sep 2026 09:00:00 +0900</pubDate>
+    <category>동삭동치과</category>
+    <description>동삭동치과 임플란트 진행 과정, 회복기간, 유지관리, 주의사항까지 상세 안내합니다. 보철 재료와 골이식 여부에 따른 차이와 관리 방법까지 확인할 수 있는 정보성 콘텐츠입니다. 평택동삭동치과, 소사벌치과, 평택치과, 평택임플란트, 평택치과병원</description>
+  </item>
   <item>
     <title>평택역치과 치아를 뽑은 자리를 두면</title>
     <link>https://365raeon.co.kr/평택역치과-치아를-뽑은-자리를-두면/</link>
@@ -216,14 +232,6 @@
     <description>평택사랑니발치 사랑니 발치 진행 과정, 회복기간, 유지관리, 주의사항까지 상세 안내합니다. 보철 재료와 골이식 여부에 따른 차이와 관리 방법까지 확인할 수 있는 정보성 콘텐츠입니다. 평택매복사랑니, 평택사랑니치과, 평택치과, 평택역치과, 평택치과병원</description>
   </item>
   <item>
-    <title>평택사랑니발치 뒤 며칠간의 생활</title>
-    <link>https://365raeon.co.kr/평택사랑니발치-뒤-며칠간의-생활/</link>
-    <guid isPermaLink="true">https://365raeon.co.kr/평택사랑니발치-뒤-며칠간의-생활/</guid>
-    <pubDate>Sun, 16 Aug 2026 09:00:00 +0900</pubDate>
-    <category>평택사랑니발치</category>
-    <description>사랑니를 뽑고 나서 무엇을 조심해야 할지 물어보시는 분들이 많았어요. 며칠 동안의 생활이 회복 과정과 이어지는 부분이 있었습니다. 평택사랑니발치 후에 자주 안내드리던 내용을 정리해 보았어요.</description>
-  </item>
-  <item>
     <title>평택임플란트</title>
     <link>https://365raeon.co.kr/평택임플란트/</link>
     <guid isPermaLink="true">https://365raeon.co.kr/평택임플란트/</guid>
@@ -238,14 +246,6 @@
     <pubDate>Thu, 13 Aug 2026 09:00:00 +0900</pubDate>
     <category>서정리치과</category>
     <description>서정리치과 임플란트 진행 과정, 회복기간, 유지관리, 주의사항까지 상세 안내합니다. 보철 재료와 골이식 여부에 따른 차이와 관리 방법까지 확인할 수 있는 정보성 콘텐츠입니다. 서정동치과, 서정리역치과, 평택역치과, 평택치과, 평택치과병원</description>
-  </item>
-  <item>
-    <title>동삭동치과</title>
-    <link>https://365raeon.co.kr/동삭동치과/</link>
-    <guid isPermaLink="true">https://365raeon.co.kr/동삭동치과/</guid>
-    <pubDate>Tue, 11 Aug 2026 09:00:00 +0900</pubDate>
-    <category>동삭동치과</category>
-    <description>동삭동치과 임플란트 진행 과정, 회복기간, 유지관리, 주의사항까지 상세 안내합니다. 보철 재료와 골이식 여부에 따른 차이와 관리 방법까지 확인할 수 있는 정보성 콘텐츠입니다. 평택동삭동치과, 소사벌치과, 평택치과, 평택임플란트, 평택치과병원</description>
   </item>
 </channel>
 </rss>
